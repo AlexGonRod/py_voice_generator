@@ -1,6 +1,6 @@
 .gradio
 .venv
-
-./venv*
-./audios*
 .env
+
+venv
+audios
