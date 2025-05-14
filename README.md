@@ -1,10 +1,11 @@
 # Voice Transformer with ElevenLabs
 
-This Python application uses ElevenLabs API to transform audio input into different voices. It captures audio through a microphone and processes it into a new voice output using AI technology.
+This Python application uses OpenAI Whisper to transcribe an audio and ElevenLabs API to transform this audio input into different voices. It captures audio through a microphone and processes it into a new voice output using AI technology.
 
 ## Features
 
 - Audio capture through microphone
+- Audio transcription using OpenAI Whisper
 - Voice transformation using ElevenLabs API
 - Simple web interface using Gradio
 - Audio playback of transformed voice
@@ -31,6 +32,10 @@ python -m venv venv
 3. Install required packages:
 ```bash
 pip install gradio elevenlabs python-dotenv
+```
+or
+```bash
+pip install requirements.txt
 ```
 
 4. Create a `.env` file in the root directory:
